@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QRCodeForPrModelStoreContainer" CdmEntityContainer="QRCodeForPrEntities">
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="QRCodeForPrModel.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaSanPham" ColumnName="MaSanPham" />
+          <ScalarProperty Name="TenSanPham" ColumnName="TenSanPham" />
+          <ScalarProperty Name="GiaSanPham" ColumnName="GiaSanPham" />
+          <ScalarProperty Name="NgayIn" ColumnName="NgayIn" />
+          <ScalarProperty Name="ImgQCode" ColumnName="ImgQCode" />
+          <ScalarProperty Name="Img1D" ColumnName="Img1D" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
